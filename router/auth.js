@@ -22,9 +22,7 @@ const middleware = (req, res, next) =>
 
 
 // for home page
-router.get('/', (req, res) =>{
-    res.send('this is home page');
-})
+
 
 // for about us page
 
